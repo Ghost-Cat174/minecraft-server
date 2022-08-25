@@ -5,6 +5,10 @@ echo IF YOU DID NOT RUN THIS SCRIPT WITH SUDO PRESS CTRL + C TO EXIT THE SCRIPT!
 echo ---------------------------------------------------------------------------
 echo please wait...
 sleep 10
+echo -----------------------------------------------------------------------
+echo PLEASE ONLY RUN THIS SCRIPT ON A CLEAN INSTALL OF UBUNTU/UBUNTU SERVER!
+echo -----------------------------------------------------------------------
+sleep 10
 echo Ok! lets get started!
 echo You WILL be installing a minecraft 1.16 server!
 echo Please enter the Apsalute path for the minecraft server to be installed into. E.G /minecraft-server
@@ -29,7 +33,8 @@ sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 sudo apt-get update
 sudo apt-get install -y java-16-amazon-corretto-jdk
 
-sudo rm -rf $path && sudo mkdir $path && cd $path && sudo wget https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar
+sudo rm -rf $path && sudo mkdir $path && cd $path && sudo wget https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar -O paper.jar
+cd $path && wget https://github.com/KittyCat951/minecraft-server/releases/download/run-server/run.sh && chmod +x run.sh
 echo please enter the amount of RAM the srever can use! E.G. 512M or 1G
 read mem
 echo The server will have $mem of system memory, Press CTRL + C if you ented it rong!
