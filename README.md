@@ -2,7 +2,6 @@
 install a paper minecraft server
 
 This script is amde for linux and it should be a clean install of a server os. (ubuntu server or debian no desktop)
-The script is currently only for a 1.16.5 server. i will be adding new versions soon!
 
 To run 1.16 run 
 wget https://github.com/KittyCat951/minecraft-server/releases/download/update/minecraft.1.16.sh
