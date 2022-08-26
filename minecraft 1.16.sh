@@ -43,7 +43,7 @@ echo The server will have $mem of system memory, Press CTRL + C if you ented it 
 echo ------
 echo PAPER!
 echo ------
-cd $path && sudo java -$mem -jar paper.jar
+cd $path && sudo java -Xmx$mem -jar paper.jar
 echo --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 echo To conigure the server type sudo nano $path/server.propoties and edit the server.propeties file!
 echo --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
