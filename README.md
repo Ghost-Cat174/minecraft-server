@@ -8,7 +8,8 @@
 
 To use this software: run
 
-``` shel
+``` shell
+apt update && install wget
 wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/downloader/install-server.sh
 chmod +x install-server.sh
 ./install-server.sh
