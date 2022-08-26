@@ -1,7 +1,7 @@
 # minecraft-server
 # Install a paper minecraft server
 
-# This script is amde for linux and it should be a clean install of a server os. (ubuntu server or debian no desktop)
+# This script is made for linux and it should be a clean install of a server os. (ubuntu server or debian no desktop)
 
 # To run 1.16 run 
 ```shell
