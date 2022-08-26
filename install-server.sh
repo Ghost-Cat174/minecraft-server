@@ -11,16 +11,16 @@ read version
 echo you pick $version!
 if [[ $version == 1 ]]
 then
-   cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/all/minecraft.1.16.sh && chmod +x minecraft.1.16.sh && sudo ./minecraft.1.16.sh
+   cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/server-bugfix/minecraft.1.16.sh && chmod +x minecraft.1.16.sh && sudo ./minecraft.1.16.sh
 elif [[ $version == 2 ]]
   then
-     cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/all/minecraft.1.17.sh && chmod +x minecraft.1.17.sh && sudo ./minecraft.1.17.sh
+     cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/server-bugfix/minecraft.1.17.sh && chmod +x minecraft.1.17.sh && sudo ./minecraft.1.17.sh
   elif [[ $version == 3 ]]
     then
-       cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/all/minecraft.1.18.sh && chmod +x minecraft.1.18.sh && sudo ./minecraft.1.18.sh  
+       cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/server-bugfix/minecraft.1.18.sh && chmod +x minecraft.1.18.sh && sudo ./minecraft.1.18.sh  
      elif [[ $version == 4 ]]
        then 
-          cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/all/minecraft.1.19.sh && chmod +x minecraft.1.19.sh && sudo ./minecraft.1.19.sh
+          cd ~ && wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/server-bugfix/minecraft.1.19.sh && chmod +x minecraft.1.19.sh && sudo ./minecraft.1.19.sh
         elif [[ $version -gt 4 ]]
           then
             echo Invalid number!
