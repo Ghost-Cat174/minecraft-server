@@ -10,7 +10,7 @@ To use this software: run
 
 ``` shell
 apt update && install wget
-https://github.com/Ghost-Cat174/minecraft-server/releases/download/install.sh/install-server.sh
+wget https://github.com/Ghost-Cat174/minecraft-server/releases/download/install.sh/install-server.sh
 chmod +x install-server.sh
 ./install-server.sh
 ```
