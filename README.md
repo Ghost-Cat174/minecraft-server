@@ -1,8 +1,6 @@
 # minecraft-server
 # Install a paper minecraft server
 
-#nfhefbi
-
 # This script is amde for linux and it should be a clean install of a server os. (ubuntu server or debian no desktop)
 
 # To run 1.16 run 
