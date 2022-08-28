@@ -5,6 +5,7 @@
 # ubuntu server is recomended.
 # ubuntu desktop can be used but not recomended.
 # debian is not supported.
+# bodhi linux is supported
 
 To use this software: run
 
